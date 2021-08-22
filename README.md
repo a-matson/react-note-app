@@ -6,10 +6,11 @@ This app allows you to add/edit/remove notes.
 
 To run the app first navigate to `note-app` directory.
 
-In the directory build the app by running:
+In the directory install node modules and build the app by running:
 
 ```bash
-npm build
+npm install
+npm run build
 ```
 
 Then start the server with `node` the `server.js` as follows:
