@@ -1,3 +1,7 @@
+.note {
+	overflow: unset;
+}
+
 .note b,
 .note span {
 	display: block;
