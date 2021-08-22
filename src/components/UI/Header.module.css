@@ -1,0 +1,50 @@
+body {
+	--main-height: 70px;
+	padding-top: var(--main-height);
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var(--main-height);
+	background: #c4c4c4;
+	display: flex;
+	justify-content: space-between;
+	user-select: none;
+}
+
+header a {
+	text-decoration: none;
+	color: #1b1b1b;
+	line-height: var(--main-height);
+	margin: 20px;
+}
+
+header a:hover {
+	border-bottom: 2px solid #1b1b1b;
+}
+
+.header-logo {
+	display: inline-block;
+	height: var(--main-height);
+	margin: 0 20px;
+	display: flex;
+	align-items: center;
+}
+
+.header-logo__icon {
+	display: inline-block;
+	height: 40px;
+	margin: 0 20px;
+}
+
+.header-logo h1 {
+	margin: 0;
+}
+
+.active {
+	border-bottom: 2px solid #000;
+	color: #000;
+}

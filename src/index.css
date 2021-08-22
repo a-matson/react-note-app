@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+button {
+	cursor: pointer;
+	font: inherit;
+	color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	min-height: 40px;
+	margin: 5px;
+}
+
+button:hover,
+button:active {
+	background-color: #fff;
+	border-color: #000;
+}
+
+#modal-root {
+	display: flex;
+}
+
+/* separated to main css as a common asset */
+.section {
+	max-width: 40rem;
+	max-height: 30rem;
+	overflow: auto;
+	margin: 2rem auto;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 5px;
+	border: 1px solid #000;
+}

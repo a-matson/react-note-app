@@ -1,0 +1,42 @@
+.dropdown {
+	min-height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.dropdown div{
+	display: inline-block;
+}
+
+/* triple dot icon */
+.dropdown div:before {
+	content: '...';
+	transform: rotate(90deg);
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	float: right;
+	font-size: 28px;
+	line-height: 12px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.dropdown div:hover:before {
+	background: #c7c7c7;
+}
+
+/* hide dropdown by default */
+.dropdown div > ul {
+	display: none;
+}
+
+/* display dropdown on hover */
+.dropdown div:hover > ul {
+	display: flex;
+	position: absolute;
+	top: 24px;
+	right: 0;
+}

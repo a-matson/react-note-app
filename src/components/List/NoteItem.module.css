@@ -1,0 +1,18 @@
+.note b,
+.note span {
+	display: block;
+	margin: 10px 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.note span {
+	font-weight: 200;
+	font-size: 16px;
+	white-space: pre-wrap;
+	/* oddly enough this is supported by most browsers pretty well */
+	display: -webkit-box;
+	-webkit-line-clamp: 6; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
